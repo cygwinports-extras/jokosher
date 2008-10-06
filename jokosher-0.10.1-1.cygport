@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="Multi-track audio studio"
+HOMEPAGE="http://www.jokosher.org/"
+SRC_URI="http://edge.launchpad.net/jokosher/${PV_MAJ_MIN}/${PV}/+download/${P}.tar.gz"
