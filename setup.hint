@@ -1,13 +1,7 @@
 category: Audio
-requires: gstreamer010-plugins-base gstreamer010-plugins-flac gstreamer010-plugins-gnome_vfs gstreamer010-plugins-good gstreamer010-plugins-lame gstreamer010-plugins-nonlin gstreamer010-plugins-ogg gstreamer010-plugins-oss gstreamer010-plugins-vorbis python python-cairo python-dbus python-gobject2 python-gstreamer010 python-gtk2 python-setuptools python-xml
+requires: gstreamer010-plugins-base gstreamer010-plugins-flac gstreamer010-plugins-good gstreamer0.10-plugins-ladspa gstreamer010-plugins-lame gstreamer010-plugins-nonlin gstreamer010-plugins-ogg gstreamer010-plugins-oss gstreamer010-plugins-vorbis python python-cairo python-dbus python-gobject python-gst0.10 python-gtk2.0
 sdesc: "Multi-track audio studio"
 ldesc: "Jokosher is a simple and powerful multi-track studio. Jokosher 
 provides a complete application for recording, editing, mixing and 
 exporting audio, and has been specifically designed with usability in 
-mind.
-
-Instruments do not work because they depend on ALSA and LADSPA, 
-which are not available on Cygwin. This limits the functionality of 
-this program to mixing sound tracks."
-
-
+mind."
